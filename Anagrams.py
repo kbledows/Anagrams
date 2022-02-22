@@ -7,6 +7,7 @@ validAnagrams = set()
 def main():
 	print("Please enter the 6 letters to begin generating words.")
 	print("SEPERATE LETTERS WITH SPACES")
+	counter = 0
 
 	letters = input().split() #list of letters
 	print("Your chosen letters are: " + str(letters))
@@ -14,9 +15,16 @@ def main():
 	recursiveAnagrams(letters,"")
 	num = len(validAnagrams)
 	print("Program found " + str(num) + " valid anagrams.")
+	print("Here they are in descending order of length.")
 	validAnagramsList = list(validAnagrams)
 	validAnagramsList.sort(key=len)
-	print(str(list(validAnagramsList)))
+	counter = len(validAnagramsList) - 1
+	wordCounter = 1
+	while counter >= 0:
+		print("%s: %s" % (wordCounter,validAnagramsList[counter]))
+		wordCounter += 1
+		counter -= 1
+	#print(str(list(validAnagramsList)))
 
 #Populates the set with valid words (len 3 to 6)
 def findValidWords():
