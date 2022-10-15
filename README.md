@@ -7,7 +7,7 @@ This repository hosts a 6 letter anagrams solver. Essentially, my program will g
 
 ## Why did I create this?
 
-<src="https://user-images.githubusercontent.com/32736495/196008021-f2560589-032d-4878-9d20-b491ac39f866.png" alt="gamepigeon1" width="40%">
+<img src="https://user-images.githubusercontent.com/32736495/196008021-f2560589-032d-4878-9d20-b491ac39f866.png" alt="gamepigeon1" width="40%">
 
 ![image](https://user-images.githubusercontent.com/32736495/196008021-f2560589-032d-4878-9d20-b491ac39f866.png) 
 
