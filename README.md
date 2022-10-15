@@ -9,11 +9,9 @@ This repository hosts a 6 letter anagrams solver. Essentially, my program will g
 
 <img src="https://user-images.githubusercontent.com/32736495/196008021-f2560589-032d-4878-9d20-b491ac39f866.png" alt="gamepigeon1" width="40%">
 
-![image](https://user-images.githubusercontent.com/32736495/196008021-f2560589-032d-4878-9d20-b491ac39f866.png) 
-
 I created this to help me play the "anagrams" word game in 'GamePigeon' against my friends. I'm not very good at the game, so I thought, why not write a solver to help me cheat?
 
-![image](https://user-images.githubusercontent.com/32736495/196008030-5ffa5f2b-935c-4305-ac1f-0a902ebc4db4.png)
+<img src="https://user-images.githubusercontent.com/32736495/196008030-5ffa5f2b-935c-4305-ac1f-0a902ebc4db4.png" alt="gamepigeon1" width="40%">
 
 
 ## Overview
