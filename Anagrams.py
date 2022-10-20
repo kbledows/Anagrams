@@ -21,7 +21,7 @@ def main():
 	counter = len(validAnagramsList) - 1
 	wordCounter = 1
 	while counter >= 0:
-		print("%s: %s" % (wordCounter,validAnagramsList[counter]))
+		print("%s: %s [%s]" % (wordCounter,validAnagramsList[counter],len(validAnagramsList[counter])))
 		wordCounter += 1
 		counter -= 1
 	#print(str(list(validAnagramsList)))
